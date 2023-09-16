@@ -1,0 +1,77 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero {
+
+    justify-content: center;
+    text-align: center;
+}
+
+.tile {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+
+
+.pd-0 {
+    padding: 0;
+}
+
+.right {
+    text-align: center;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    gap: 2em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    display: grid;
+    padding: 1em 5em 1em 5em !important;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.card p {
+    text-align: center;
+}
+
+.gcc {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tile {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-cards {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));    
+    gap: 2em;
+    text-align: center;
+    
+}
+
+.last-cards > * {
+    flex: 1;
+}

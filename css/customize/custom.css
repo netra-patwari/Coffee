@@ -1,0 +1,61 @@
+.logo-img {
+    height: 5rem;
+}
+
+p {
+    display: inline-block;
+    padding: 0.5em;
+    background: #DA931E;
+    text-align: center;
+}
+
+
+p:hover {
+    transition: .2s;
+    background-color: white;
+    color: #0011ff;
+    cursor: pointer;
+    font-weight: 800;
+    box-shadow: white;
+}
+
+  .card {
+    padding: 1em;
+    border: 1px solid white;
+  }
+
+  .card-img {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: -45px;
+    border-radius: 50%;
+    background-color: #DA931E;
+  }
+  
+  .img-one {
+    background: url(/asset/coffee_img4.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .img-two {
+    background: url(/asset/latte_img5.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .img-three {
+    background: url(/asset/mocha_img6.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .card {
+    border: 2px solid #DA931E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+  }
+

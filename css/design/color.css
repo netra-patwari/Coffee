@@ -1,0 +1,29 @@
+:root {
+    --cl-main2 : #5E2803;
+    --cl-main1 : white;
+    --cl-black : black;
+}
+
+body {
+    background-color: var(--cl-black);
+    color: var(--cl-main1);
+}
+
+a {
+    color: var(--cl-main1);
+}
+
+p {
+    color: var(--cl-black);
+}
+
+span {
+    color: hsl(37, 76%, 49%);
+}
+
+hr {
+  
+    width: 60vw;
+    margin: 0 auto;
+    border-color: hsl(37, 76%, 49%);
+  }
